@@ -19,7 +19,6 @@ new class extends Migration
         Schema::create('alumnos', function (Blueprint $table) {
             $table->id();
             $table->foreignId('usuario_id')->constrained()->onDelete('cascade');
-            $table->string('grupo');
             $table->timestamps();
         });
 
@@ -35,5 +34,6 @@ new class extends Migration
         Schema::dropIfExists('profesores');
         Schema::dropIfExists('alumnos');
         Schema::dropIfExists('usuarios');
+        Schema::dropIfExists('materias');
     }
 };
