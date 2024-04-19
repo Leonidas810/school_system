@@ -1,0 +1,20 @@
+/* colors.css */
+
+/* Colores principales */
+:root {
+    --color-primary-lightest: #59F1FD;   /* Azul claro */
+    --color-primary-light: #59C8FD;      /* Azul medio */
+    --color-primary: #599FFD;            /* Azul */
+    --color-primary-dark: #5976FD;       /* Azul oscuro */
+    --color-primary-darkest: #6559FD;    /* Azul violeta */
+    --color-secondary: #8E59FD;          /* Violeta */
+}
+
+/* Colores neutros */
+:root {
+    --color-background: #FFFFFF; /* Fondo principal (blanco) */
+    --color-background-secondary: #111010; /* Fondo secundario (gris claro) */
+    --color-titles: #FFFFFF; /* Texto principal (negro) */
+    --color-text: #333333; /* Texto principal (negro) */
+    --color-text-secondary: #666666; /* Texto secundario (gris medio) */
+}
